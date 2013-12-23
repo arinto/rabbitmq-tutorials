@@ -8,6 +8,13 @@ dotnet/lib
 java/*.class
 java/*.jar
 java/rabbitmq-java-client-bin*
+#Maven .gitignore
+java/target
+java/pom.xml.tag
+java/pom.xml.releaseBackup
+java/pom.xml.next
+javarelease.properties
+#end of Maven .gitignore
 javascript-nodejs/node_modules
 php/lib/
 python-puka/venv
