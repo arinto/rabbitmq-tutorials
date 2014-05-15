@@ -9,7 +9,7 @@ public class EmitLog {
   public static void main(String[] argv) throws Exception {
 
     ConnectionFactory factory = new ConnectionFactory();
-    factory.setHost("localhost");
+    factory.setHost("192.168.0.20");
     Connection connection = factory.newConnection();
     Channel channel = connection.createChannel();
 
