@@ -6,4 +6,4 @@ for var in "$@";do
     ARGUMENT="$ARGUMENT $var"
 done
 
-java -cp "$CP" NewTask $ARGUMENT
+java -cp "$CP" EmitGeoDirectWorkQueue $ARGUMENT

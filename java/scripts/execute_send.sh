@@ -1,5 +1,5 @@
 #! /bin/bash
 
-CP=.:../target/rabbitmq-sandbox-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+CP=.:../target/rabbitmq-tutorials-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 
-java -cp "$CP" sg.edu.smu.larc.research.main.Send 
+java -cp "$CP" Send 
